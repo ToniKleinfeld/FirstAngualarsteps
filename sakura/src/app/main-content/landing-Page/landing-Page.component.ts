@@ -6,7 +6,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
     selector: 'app-landigPage',
     standalone: true,
     imports: [CommonModule, NavbarComponent],
-    templateUrl : './landigPage.component.html',
-    styleUrls: ['./landigPage.component.scss'],
+    templateUrl : './landing-Page.component.html',
+    styleUrls: ['./landing-Page.component.scss'],
 })
-export class LandigPageComponent {}
+export class LandingPageComponent {}
