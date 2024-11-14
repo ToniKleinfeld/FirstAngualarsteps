@@ -1,0 +1,47 @@
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    @include center();
+    font-family: Raleway;
+    
+    >div {
+        @include center();
+        flex-direction: column;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        >h3 {
+            font-size: 80px;
+            font-weight: 700;
+            color: #9F0908 ;
+        }
+
+        >div {
+            @include center();
+            gap: 120px;
+            padding-top: 64px;
+
+
+            >div {
+                @include center();
+                flex-direction: column;
+
+                >img {
+                    aspect-ratio: 1/1;
+                    width: 128px;
+                    margin-bottom: 16px;
+                }
+
+                >h4 {
+                    font-size: 56px;
+                    font-family: Economica;
+                    text-align: center;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

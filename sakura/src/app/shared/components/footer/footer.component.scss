@@ -1,0 +1,37 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 130px;
+
+    >img {
+        height: 44px;
+        aspect-ratio: unset;
+        width: unset;
+    }
+
+    >div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        >a {
+            font-family:Economica;
+            font-weight: 700;
+            margin-right: 50px;
+            &:hover {
+             color: #9F0908;;
+            } 
+         }
+    }
+
+
+
+}
+
+img {
+    aspect-ratio: 1/1;
+    width: 40px;
+}
