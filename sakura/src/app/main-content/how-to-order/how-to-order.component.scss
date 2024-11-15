@@ -1,7 +1,7 @@
-@mixin center() {
+@mixin center($jc:center , $ai:center) {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: $jc;
+    align-items: $ai;
 }
 
 section {

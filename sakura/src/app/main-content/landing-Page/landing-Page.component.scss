@@ -1,7 +1,11 @@
-section {
+@mixin center($jc:center , $ai:center) {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+section {
+    @include center($jc:flex-start);
     flex-direction: column;
     height: 100dvh;
     width: 100%;
