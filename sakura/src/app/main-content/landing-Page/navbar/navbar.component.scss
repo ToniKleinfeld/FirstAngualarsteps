@@ -14,7 +14,7 @@ nav {
 
     >div {
         font-size: 24px;
-        @include main.center(space-around);
+        @include main.center($jc:space-around);
         gap: 5%;
         >a{
             &:hover {
